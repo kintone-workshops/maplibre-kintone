@@ -44,7 +44,7 @@ fetchAndDisplayMapData()
 // Initialize Map, centered on Tokyo
 const map = new maplibregl.Map({
   container: 'map', // container id
-  style: 'https://demotiles.maplibre.org/style.json', // style URL
+  style: 'https://tile.openstreetmap.jp/styles/osm-bright-ja/style.json', // style URL
   center: [139.767, 35.681],
   zoom: 3,
   maxBounds: bounds
