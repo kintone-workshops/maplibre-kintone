@@ -1,6 +1,9 @@
 # maplibre-kintone
 A demo showing MapLibre using Kintone for Data Points
 
+![demo.gif](./images/demo.gif)
+
+
 ## Install Steps
 
 1. Clone the repo
@@ -33,7 +36,6 @@ A demo showing MapLibre using Kintone for Data Points
 |---|---|---|---|---:|
 |Mt. Fuji | Kitayama, Fujinomiya, Shizuoka 418-0112 | Tourist Attraction | 35.298 | 138.605 |
 |Narita Airport | 1-1 Furugome, Narita, Chiba 282-0004 | Business | 35.7702 | 140.3817 |
-|ガンジスアンドメコン | 1 Chome-1-5 Nihonbashimuromachi, Chuo City, Tokyo 103-0022 | Restaurant | 35.6844 | 139.7712 |
 | Cybozu | 〒103-0027 Tokyo, Chuo City, Nihonbashi, 2-chōme−7−1 東京日本橋タワー２７階 | Business | 35.682 | 139.7743 |
 
 ## Get your API Token
