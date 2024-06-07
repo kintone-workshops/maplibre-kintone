@@ -24,7 +24,7 @@ const corsOptions = {
 };
 
 // Kintone's records endpoint
-const multipleRecordsEndpoint = `https://${domain}.kintone.com/k/v1/records.json?app=${appID}`
+const multipleRecordsEndpoint = `https://${domain}.cybozu.com/k/v1/records.json?app=${appID}`
 
 // GET data from our Kintone database
 app.get('/getData', cors(corsOptions), async (req, res) => {
