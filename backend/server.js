@@ -10,7 +10,7 @@ dotenv.config({ path: '../.env' })
 ViteExpress.config({ mode: "production" })
 
 // Get Kintone credentials from a .env file
-const subdomain = process.env.SUBDOMAIN;
+const domain = process.env.DOMAIN;
 const appID = process.env.APPID;
 const apiToken = process.env.APITOKEN;
 
@@ -24,7 +24,7 @@ const corsOptions = {
 };
 
 // Kintone's records endpoint
-const multipleRecordsEndpoint = `https://${subdomain}.kintone.com/k/v1/records.json?app=${appID}`
+const multipleRecordsEndpoint = `https://${domain}.kintone.com/k/v1/records.json?app=${appID}`
 
 // GET data from our Kintone database
 app.get('/getData', cors(corsOptions), async (req, res) => {
